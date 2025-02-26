@@ -22,5 +22,5 @@ This repository trains a spiking neural network (SNN) classifier on the MNIST da
 
 ## Live Demo
 
-To run the Streamlit Demo simply click the link [here](https://neuromorphicclassifier-zcndlmxf4gqlnwdnk9eucj.streamlit.app).
+To run the Streamlit Demo simply click the link [here](https://neuromorphicclassifier-zcndlmxf4gqlnwdnk9eucj.streamlit.app). <br>
 Or if you prefer the Gradio App Demo in a Google Colab notebook, then simply run this [notebook](https://colab.research.google.com/drive/1nb5gLPCgLxLN4RBbZTS5tXKT1nDWyUo0?usp=sharing).
