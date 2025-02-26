@@ -6,7 +6,6 @@ import snntorch.spikeplot as splt
 import tempfile
 import os
 import shutil
-import cv2
 import random
 import torch
 import torch.nn as nn
