@@ -17,6 +17,14 @@ import snntorch as snn
 from snntorch import spikegen
 from snntorch import surrogate
 import torch.nn.functional as F
+import asyncio
+
+# Ensure there's an event loop running
+try:
+    asyncio.get_running_loop()
+except RuntimeError:
+    asyncio.run(asyncio.sleep(0))
+
 
 BATCH_SIZE = 64
 IMAGE_REPITIONS = 4
